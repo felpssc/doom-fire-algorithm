@@ -6,14 +6,29 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color:rgb(43, 21, 5);
+  background-color: #63431c;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+h1 {
+  margin-bottom: 20px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px -1px 0px rgba(243, 197, 45, 0.767);
+}
 
+h6 {
+  margin-top: 50px;
+  color: white;
+  font-family: monospace;
+}
+
+a {
+  color: rgb(185, 185, 185);
+}
 
 table {
   border-collapse: collapse;
@@ -47,11 +62,11 @@ td.pixel {
 }
 
 .options {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 button {
-  padding: 10px;
+  padding: 5px;
   background-color: sandybrown;
   color: #FFF;
   font-family: monospace;
